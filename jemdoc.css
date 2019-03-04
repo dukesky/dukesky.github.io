@@ -360,14 +360,13 @@ tr.heading {
 img {
     border: none;
 }
-image-and-text{
-    clear:both;
+
+#content .col {
+  float: left;
 }
-image{
-    float:left;
-}
-text{
-    float:left;
+
+#footer {
+  clear: left;
 }
 table.imgtable, table.imgtable td {
     border: none;
