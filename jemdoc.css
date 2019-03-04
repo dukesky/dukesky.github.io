@@ -360,7 +360,15 @@ tr.heading {
 img {
     border: none;
 }
-
+image-and-text{
+    clear:both;
+}
+image{
+    float:left;
+}
+text{
+    float:left;
+}
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
