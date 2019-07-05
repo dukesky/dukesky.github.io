@@ -72,7 +72,7 @@
 </td>
 <td><img src="figs/movie1.jpg" width="450px" height="300px" />
 <p>&nbsp;</p>
-<img src="figs/ml_news.jpg" width="450px" height="300px" /></td>
+<img src="figs/ml_news.jpg" width="300x" height="450px" /></td>
 </tr>
 <tr>
 <td colspan="2">
@@ -84,9 +84,21 @@
 <td>
 <h3>CopyCat App Detection</h3>
 <p>This project aimed to detect all copycat Apps in Google Play App store.</p>
+<p>I extracted more than 40,000 Apps information include App description and resealse data and version, download, price， etc. 
+  from Google play, and vectorize each App's description based on bag of words model, applies TF/IDF and PCA to reduce demension (reduce
+   90%), and clustering the final phrase vector by cosine similarity.</p>
+ <p> Though this method is simple, the final result is good. Take CANDY CRUSH as an example, In the first 80 similar Apps of CANDY CRUSH,
+  there are 58 Apps are copycat or has similar functions.</p>
 <p> &nbsp; </p>
 <h3>Spoken Language Detection</h3>
 <p>This project aimed to detect language spoken in the audio record.</p>
+<p>In this priject, I had 60 audio records (10 min for each) which contains reading in English, Mandarin and Hindi. My job is training a deep learning 
+  model to recognize spoken language based on this 60 audio data. I implemented my model by the following step:</p>
+ <p> %nbsp; %nbsp; 1. I segmentate each audio record into small blocks which contain 10 seconds of language spoken audio. This expand my
+  dataset into 3,000 audio data</p>
+  <p> %nbsp; %nbsp; 2. I used Python pakage <a href="https://librosa.github.io/librosa/" target="_blank" rel="noopener">LibROSA</a> to extract fetures 
+    from audio. This pakage help me extract 64 features for each second using <a herf="https://librosa.github.io/librosa/generated/librosa.feature.mfcc.html"> Mel-frequency cepstral coefficients (MFCCs)</a> </p>
+  <p> %nbsp; %nbsp; 3. Build Recurrent Nerual Network(RNN) model with 2 LSTM layers. There model obtained an accuracy of 73.5%</p>
 </td>
 </tr>
 </tbody>
