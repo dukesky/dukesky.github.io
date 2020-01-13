@@ -1,0 +1,13 @@
+.img{
+    max-width: 80%;
+    max-height: 40%;
+    background-color: black;
+    border: 6px solid #1C6EA4;
+    position: relative;
+
+    &__title {
+        border-image-width: 0px 2px 2px 5px;
+        background-color: green;
+
+    }
+}

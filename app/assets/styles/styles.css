@@ -1,5 +1,9 @@
-@import '../styles/main.css';
+@import '../styles/modules/main.css';
+@import '../styles/modules/jemdoc.css';
+@import '../styles/modules/_img.css';
+@import 'normalize.css';
 
 body {
-    color: orange;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
 }
