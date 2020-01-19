@@ -1,4 +1,5 @@
 .site-footer{
+    position: relative;
     background-color:white;
     color: white;
     padding: .3rem 0 .3rem;

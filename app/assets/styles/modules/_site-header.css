@@ -1,20 +1,32 @@
 .site-header{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    z-index: 2 ;
-    padding: 10px;
+    z-index: 1 ;
+    height: 40px;
     transition: background-color .3s ease-out;
-    background-color: var(--mainBlack);
+    background-color: var(--mainDarkwhite);
 
     &--is-expanded{
-        background-color: var(--mainBlack) ;
+        background-color: var(--mainDarkwhite) ;
     }
     
     @mixin atMedium{
-        background-color: rgba(47,85,114,.3);
+        background-color: var(--mainDarkwhite);
     }
 
+    &__title {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        
+        position: relative;
+        float: left;
+        font-size: 2rem;
+        left: 10%;
+        right: 90%;
 
+        font-style: Times;
+        color:var(--mainBlack);
+
+    }
 
     &__btn-container {
         float: none;
@@ -31,25 +43,29 @@
         width: 36px;
         height: 36px;
         top: 0;
+        left: 30px;
+        right: auto;
         
         transform: translateX(-50%);
-        background-color:  var(--mainDarkwhite);
+ 
         padding: 2px 5px 2px 5px;
 
         @mixin atMedium{
-          left: auto;
+          left: 40px;
           transform:translateX(0)  
         }
 
     }    
 
     &__menu-content{
+        top: 3px;
         opacity: 0;
         transition: opacity .3s ease-out;
         position: relative;
         z-index: -10;
-        padding-top: 40px;
+        padding-top: 5px;
         text-emphasis: center;
+        float: right;
 
         @mixin atMedium{
             opacity: 1;
@@ -80,7 +96,7 @@
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: white;
+            background-color: var(--mainBlack);
             transform-origin: 0 0;
             transition: transform .3s ease-out;
             
@@ -92,7 +108,7 @@
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: white;
+            background-color:var(--mainBlack);
         }
 
         &::after {
@@ -102,7 +118,7 @@
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: white;
+            background-color:var(--mainBlack);
             transform-origin: 0 0;
             transition: transform .3s ease-out;
         }
