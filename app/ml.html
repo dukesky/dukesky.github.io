@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
-  
+
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="personal_web" content="width=device-width, initial-scale=1" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700'>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" href="../app/assets/styles/styles.css" type="text/css" />
-    <title>Tian Zhang &ndash; Machine Learning </title>
+    <title>Tian Machine Learning Experience </title>
   </head>
+
 <body>
-<table id="tlayout" summary="Table for page layout.">
-<tbody>
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Tian Zhang</div>
-<div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item">&nbsp;</div>
-<div class="menu-item">&nbsp; EXPERIENCE</div>
-<div class="menu-item"><a class="current" href="ml.html">&gt;&gt;Machine Learning</a></div>
-<div class="menu-item"><a href="ee.html">Robotics&amp; Electrical</a></div>
-<div class="menu-item">&nbsp;</div>
-<div class="menu-item"><a href="me.html">Me</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle"><img src="figs/summary_ml.jpg" width="1000px" height="500px" />
+
+  <header class='site-header'> 
+    <div class='wrapper'>
+      <div class='site-header__logo'>
+        <img src="assets/figs/doge.png" href='#'>
+      </div>
+      <div class='site-header__title'>Tian Zhang</div>
+
+      <div class='site-header__menu-icon'>
+        <div class='site-header__menu-icon__top'> </div>
+        <div class='site-header__menu-icon__middle'> </div>
+        <div class='site-header__menu-icon__bottom'> </div>
+
+      </div>
+      <div class='site-header__menu-content'> 
+        <nav class='primary-nav primary-nav__pull-right'>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ml.html">Blog</a></li>
+            <li><a href="ee.html">About</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+<div id="toptitle"><img src="assets/figs/summary_ml.jpg" width="1000px" height="500px" />
  <h1>Machine Learning Experience</h1>
 </div>
-<table>
-<tbody>
-<tr>
-<td colspan="2">
+
 <h2>Image Processing</h2>
-</td>
-</tr>
-<tr>
-<td>
+
 <h3>Online Trainable Image Recognition Platform</h3>
 <p>&nbsp; &nbsp; This is my Intern project at AiTmed, a Telemedical startup head to Anaheim.</p>
 <h3>High-Resolution Human Image generation</h3>
@@ -47,12 +56,11 @@
 <p>&nbsp; &nbsp; In this project, I finished the following works:</p>
 <p>&nbsp; &nbsp;1. Preprocessed and balanced data: upload image data and transfer into a data matrix, flip image upside down and make right/left rotate to expand training set. Separated data in different groups to overcome data imbalance.</p>
 <p>&nbsp; &nbsp;2. Built deep learning model used Keras with Tensorflow framework: Built a VGG-16 ConvNet, trained in AWS E2 and saved parameters</p>
-</td>
-<td>
+
 <p>&nbsp;</p>
-<p><img src="figs/ml_fsrcnn.jpg" width="500px" height="250px" /></p>
+<p><img src="assets/figs/ml_fsrcnn.jpg" width="500px" height="250px" /></p>
  <p>&nbsp;</p>
-<p><img src="figs/emotions.jpg" width="500px" height="300px" /></p>
+<p><img src="assets/figs/emotions.jpg" width="500px" height="300px" /></p>
 </td>
 </tr>
 <tr>
@@ -71,9 +79,9 @@
 <h3>Online News Popularity Prediction</h3>
 <p>&nbsp; &nbsp; This is a course final project, me and my partner in charged of a&nbsp; News Popularity prediction model</p>
 </td>
-<td><img src="figs/movie1.jpg" width="450px" height="300px" />
+<td><img src="assets/figs/movie1.jpg" width="450px" height="300px" />
 <p>&nbsp;</p>
-<img src="figs/ml_news.jpg" width="300x" height="450px" /></td>
+<img src="assets/figs/ml_news.jpg" width="300x" height="450px" /></td>
 </tr>
 <tr>
 <td colspan="2">
@@ -101,13 +109,60 @@
     from audio. This pakage help me extract 64 features for each second using 
     <a herf="https://librosa.github.io/librosa/generated/librosa.feature.mfcc.html" rel="noopener">Mel-frequency cepstral coefficients (MFCCs)</a> </p>
   <p> %nbsp; %nbsp; 3. Build Recurrent Nerual Network(RNN) model with 2 LSTM layers. There model obtained an accuracy of 73.5%</p>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</body>
+
+      <p><strong><span style="color: #000000;">Data Preparation procedure</span></strong>&nbsp;&nbsp;</p>
+      <ul>
+        <li>data visualization (Matplotlib)</li>
+        <li>data pipelines (Data clean, extract, generation)</li>
+      </ul>
+      <p><strong>Data Management</strong></p>
+        <li>Use MySQL or Spark to manage data</li>
+      <p><strong>Apply Traditional Machine Learning models</strong></p>
+      <ul>
+        <li>Supervised Learning (SVM, Random Forest, Boosting, Naive Bayes)</li>
+        <li>Unsupervised Learning (Clustering)</li>
+      </ul>
+      <p><strong>Apply Deep Learning Models</strong></p>
+      <ul>
+        <li>Natural Language Processing (entity recognition)</li>
+        <li>Image Processing (Image classification, Image generation)</li>
+      </ul>
+
+
+
+      <footer class='site-footer wrapper'>
+        <div style="width:400px;height:24px;" id="comp-iv0yzwle">
+          <li style="width:24px;height:24px;margin-bottom:0;margin-right:24px;display:inline-block" >
+            <a href="https://www.linkedin.com/in/tian-zhang-87b4a0165/" >
+              <img style="width: 24px; height: 24px; object-fit: cover;" src="assets/figs/linkedin_logo.png">
+            </a></li>
+            
+          <li style="width:24px;height:24px;margin-bottom:0;margin-right:24px;display:inline-block" >
+            <a href="https://www.facebook.com/tian.zhang.75286">
+              <img   src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp">
+            </a></li>
+          
+          <li style="width:24px;height:24px;margin-bottom:0;margin-right:24px;display:inline-block" >
+            <a href="https://twitter.com/BriceTian">
+              <img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/c7d035ba85f6486680c2facedecdcf4d.webp">
+            </a></li>
+          
+          <li style="width:24px;height:24px;margin-bottom:0;margin-right:24px;display:inline-block" >
+            <a href="https://www.instagram.com/tianzh17/">
+              <img  src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp">
+            </a></li>
+        
+          <li style="width:24px;height:24px;margin-bottom:0;margin-right:24px;display:inline-block" >
+            <a href="https://github.com/dukesky">
+            <svg class="octicon octicon-mark-github v-align-middle" height="24" viewBox="0 0 16 16" width="24" >
+              <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+              </svg></a></li>
+        
+        </div>
+          <div style="width: 740px; pointer-events: none;" id="comp-iv0ykw0w">
+            <p class="font_8" style="line-height:1.5em; text-align:center;">Designed by <strong>Tian Zhang</strong>  <sub>Jan 2020 version 2.0</sub></p></div></div></div></div></div>
+         </footer>
+        
+        <script src='bundled.js'> </script>
+        </body>
 </html>

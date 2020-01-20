@@ -15,7 +15,7 @@
 .row__medium-8{
     @mixin atMedium{
         float:left;
-        width: 60%;
+        width: 65%;
     }
 }
 

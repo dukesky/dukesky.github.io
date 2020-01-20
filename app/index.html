@@ -13,7 +13,7 @@
   <header class='site-header'> 
     <div class='wrapper'>
       <div class='site-header__logo'>
-        <img src="assets/figs/doge.png" href="index.html">
+        <img src="assets/figs/doge.png" href='#'>
       </div>
       <div class='site-header__title'>Tian Zhang</div>
 
@@ -26,9 +26,10 @@
       <div class='site-header__menu-content'> 
         <nav class='primary-nav primary-nav__pull-right'>
           <ul>
+            <li><a href="index.html">Home</a></li>
             <li><a href="ml.html">Blog</a></li>
             <li><a href="ee.html">About</a></li>
-            <li><a href="me.html">Portfolio</a></li>
+            <li><a href="#interested_area">Portfolio</a></li>
           </ul>
         </nav>
       </div>
@@ -36,16 +37,17 @@
   </header>
 
     
-  <div class='large-hero'>
+  <div  class='large-hero'>
       <div class='wrapper wrapper--b-margin'>
         <div class='large-hero__image'>
-          <img src='assets/figs/dog_way_to_ds.jpg'>
+          <img class='large-hero__image' src='assets/figs/dog_way_to_ds.jpg'>
         </div>
 
         <div class='large-hero__text-content'>
           <div class='large-hero__subtitle'>Under the Way to ... </div>
           <div class='large-hero__title'> A Pro Data Scientist </div>
         </div>
+        <div style='font-size: 0.4rem;'> @ wallpaperswide.com</div>
       </div>
 
   </div>
@@ -69,59 +71,81 @@
       </div>
 
       <div class='bio'>
-        <h2>Bio</h2>
-        <p>&nbsp; &nbsp; I received the B.E. in Automation Science and Electrical Engineering (Automation track) from the Beihang University China in July, 2017.</p>
-        <p>&nbsp; &nbsp; I received the M.S. in Electrical Engineering from University of Southern California in May, 2019</p>
-        <div>&nbsp; &nbsp;I am a new graduate of master degree from University of Southern California, with a GPA of 3.9 in Electrical Engineer - Data Science track. In school, I learned many machine learning and data science knowledge and did some relative research and course projects. I'm fluency with Python and C language coding and have experience of:</div> 
-        <p>&nbsp; &nbsp; In my last Intern as machine learning engineer in AiTmed, I develop a trainable image classification platform that could make customers train their own classification model online. I'm passinated looking of a data and machine learning related full time job now.</p>
-  
-        <p>&nbsp; &nbsp; I also have research experience on electrical circuit and robotic. In my undergraduate study, I built robot systems, include structure and circuit design, embedded system control and sensor networks.</p>     
+        <div class='bio__title'>
+          <image class='bio__image' src='assets/figs/bio.png'>bio 
+        </div>
+        <div class= 'wrapper row--equal-height-at-medium'>
+          <div class='row__medium-8'>
+            <div class='bio__text'>
+              <p>&nbsp; &nbsp; I received the B.E. in Automation Science and Electrical Engineering (Automation track) from the Beihang University China in July, 2017.</p>
+              <p>&nbsp; &nbsp; I received the M.S. in Electrical Engineering from University of Southern California in May, 2019</p>
+              <p></p>
+              <p>&nbsp; &nbsp;I am a new graduate of master degree from University of Southern California, with a GPA of 3.9 in Electrical Engineer - Data Science track. In school, I learned many machine learning and data science knowledge and did some relative research and course projects. I'm fluency with Python and C language coding and have experience of:</p> 
+              <p>&nbsp; &nbsp; In my last Intern as machine learning engineer in AiTmed, I develop a trainable image classification platform that could make customers train their own classification model online. I'm passinated looking of a data and machine learning related full time job now.</p>
+              <p></p>
+              <p>&nbsp; &nbsp; I also have research experience on electrical circuit and robotic. In my undergraduate study, I built robot systems, include structure and circuit design, embedded system control and sensor networks.</p> 
+          </div> 
+          </div>
+          <div class='row__medium-4'> 
+              <img class='bio__side_image' src='assets/figs/Bio.svg'>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 
-  <div id='interested_area' class='page-section'>
-      <h2>Interest Area</h2>
-      <ul>
-        <li> <p>Data Management</p></li>
-        <li>
-          <p>Image Classification and Pattern Recognition</p>
-        </li>
-        <li>
-          <p>Natural Language Processing and Information Extraction</p>
-        </li>
-        <li>
-          <p>Applied Machine learning into Real Word Problem Solution</p>
-        </li>
-      </ul>
+  <div id="interested_area" class='page-section page-section__testimonials'>
+    <div  class='wrapper'> 
+      <h2  class='section-title section-title__blue'>
+        <strong>Portfolio</strong>
+      </h2>
 
+      <div class='row row--equal-height-at-medium'> 
+        <div class='row__medium-4'> 
+          <div class='testimonial'> 
+            <div class='testimonial__photo'> 
+              <img src="assets/figs/Machine Learning.png">
+            </div>
+            <h3 class='testimonial__title'>Machine Learning</h3>
+            <h4 class='testimonial__subtitle'>9 Time Escaper</h4>
+            <div class='btn'><a style='color:white;' href="ml.html">View More</a style='color:white;' href="ee.html"></div>
+          </div>  
+
+        </div>
+
+        <div class='row__medium-4'> 
+          <div class='testimonial'> 
+            <div class='testimonial__photo'>
+              <img src="assets/figs/Robotics.png">
+            </div>
+            <h3 class='testimonial__title'>Electrical Engineering</h3>
+            <h4 class='testimonial__subtitle'>4 Time Escaper</h3>
+              <div class='btn'><a style='color:white;' href="ee.html"> View More </a></div>
+          </div>
+        </div>
+
+        <div class='row__medium-4'> 
+          <div class='testimonial'>
+            <div class='testimonial__photo'>
+              <img src="assets/figs/Web_Develop.png">  
+            </div>
+            <h3 class='testimonial__title'>Web & App Design</h3>
+            <h4 class='testimonial__subtitle'>6 Time Escaper</h3>
+              <div class='btn'><a style='color:white;' href="sorry.html"> View More </a></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
   </div>
-
-  
-
-    <p><strong><span style="color: #000000;">Data Preparation procedure</span></strong>&nbsp;&nbsp;</p>
-      <ul>
-        <li>data visualization (Matplotlib)</li>
-        <li>data pipelines (Data clean, extract, generation)</li>
-      </ul>
-      <p><strong>Data Management</strong></p>
-        <li>Use MySQL or Spark to manage data</li>
-      <p><strong>Apply Traditional Machine Learning models</strong></p>
-      <ul>
-        <li>Supervised Learning (SVM, Random Forest, Boosting, Naive Bayes)</li>
-        <li>Unsupervised Learning (Clustering)</li>
-      </ul>
-      <p><strong>Apply Deep Learning Models</strong></p>
-      <ul>
-        <li>Natural Language Processing (entity recognition)</li>
-        <li>Image Processing (Image classification, Image generation)</li>
-      </ul>
-
-
-
     
     <div class='News'>
-      <h2>News</h2>
+      <h2>Recent News</h2>
         <li>2019/05&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Graduate from University of Southern California(USC)</li>
         <li>2019/05-2019/07&nbsp; Intern in AiTmed</li>
     </div>

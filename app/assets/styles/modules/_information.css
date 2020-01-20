@@ -1,11 +1,10 @@
 .information {
     width : 100%;
     position :relative;
-    background: #FFFFFF;
-    background: -moz-linear-gradient(top, #FFFFFF 0%, #83C8DD 60%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(top, #FFFFFF 0%, #83C8DD 60%, #FFFFFF 100%);
-    background: linear-gradient(to bottom, #FFFFFF 0%, #83C8DD 60%, #FFFFFF 100%);
+    background: var(--mainDarkwhite);
+
     padding-bottom: 10px;
+    padding-top: 15px;
 
     &__biref {
 
