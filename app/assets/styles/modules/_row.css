@@ -1,7 +1,40 @@
 .row{
     @mixin clearfix;
-    box-sizing: border-box
+    box-sizing: border-box;
 
+}
+
+.row__title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 300;
+    color: var(--mainBlack);
+    margin-left: 18px;
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+}
+
+.row__background_darkwhite {
+    padding-top: 15px;
+    background-color: var(--mainDarkwhite);
+    padding-bottom: 30px;
+
+}
+.row__background_white {
+    padding-top: 15px;
+ 
+    padding-bottom: 30px;
+}
+
+.row__background_blue {
+    padding-top: 15px;
+    background-color: #e8f7ff;
+    padding-bottom: 30px;
+}
+
+.row__background_gray {
+    padding-top: 15px;
+    background-color: #dae8f0;
+    padding-bottom: 30px;
 }
 
 .row__medium-4{
@@ -15,7 +48,7 @@
 .row__medium-8{
     @mixin atMedium{
         float:left;
-        width: 65%;
+        width: 60%;
     }
 }
 
@@ -40,7 +73,9 @@
 .row__medium-6 {
     @mixin atMedium {
         float: left;
-        width: 50%;
+        width: 49%;
+        padding-left: 10px;
+        padding-right: 10px;;
 
     }
 }

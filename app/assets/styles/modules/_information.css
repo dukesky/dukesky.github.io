@@ -18,6 +18,8 @@
         width: 100%;
         left: auto;
         right: auto;
+        padding-bottom: 10px;
+        padding-top: 15px;
     }
 
     &__protrait {
@@ -30,8 +32,8 @@
     }
 
     &__protrait_image {
-        width: 141px;
-        height: 186px;
+        width: 165px;
+        height: 220px;
         margin: 0 0 20 2;
 
     }
@@ -39,5 +41,6 @@
     &__title {
         font-family: "Comic Sans MS", cursive, sans-serif;
         margin-left: 10px;
+        font-size: 1.5rem;
     }
 }
