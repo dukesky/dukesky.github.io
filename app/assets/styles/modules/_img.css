@@ -1,0 +1,13 @@
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    border: 6px solid var(--mainBlue);
+    position: relative;
+
+    &__title {
+        border-image-width: 0px 2px 2px 5px;
+        
+
+    }
+}

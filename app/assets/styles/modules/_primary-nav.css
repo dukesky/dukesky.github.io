@@ -1,0 +1,54 @@
+.primary-nav {
+    top: 2px;
+    padding: 5px;
+    font-size: 1rem;
+
+    &__pull-right {
+        float: right;
+        @mixin atMedium{
+            float: right;   
+        }
+         
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        @mixin clearfix;
+    }
+
+    li {
+
+      list-style: none;
+      display: inline-block;
+      padding-right: 7px;
+
+      @mixin atMedium{
+        float: right;  
+        display: block;
+      }
+    }
+
+    li:last-child{
+        padding-right: 0;
+        @mixin atMedium{
+            padding-right: 20px;
+        }
+    }
+
+    a {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color:var(--mainBlack);
+        text-decoration: none;
+        font-weight: 400;
+        padding-left: 8px ;
+
+        font-size: 0.8rem;
+    }
+
+    @mixin atMedium{
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+}

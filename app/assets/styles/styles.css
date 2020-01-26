@@ -1,0 +1,52 @@
+@import '../styles/modules/main.css';
+@import '../styles/basic/_mixin.css';
+@import '../styles/modules/jemdoc.css';
+@import '../styles/modules/_img.css';
+@import 'normalize.css';
+@import 'modules/_site-header.css';
+@import 'modules/_wrapper.css';
+@import 'modules/_footer.css';
+@import 'modules/_site-footer.css';
+@import 'modules/_large-hero.css';
+@import 'modules/_name_bar.css';
+@import 'modules/_primary-nav.css';
+@import 'modules/_information.css';
+@import 'modules/_page-section.css';
+@import 'modules/_bio.css';
+@import 'modules/_news.css';
+@import 'modules/_section-title.css';
+@import 'modules/_row.css';
+@import 'modules/_testimonial.css';
+@import 'modules/_btn.css';
+
+
+
+
+header {
+  position: absolute;
+  color: var(--mainBlack);
+}
+
+body {
+  position: relative;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  position: absolute;
+  right: 0;bottom:0;left:0;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+/* define of variable */
+
+:root {
+  --mainBlue: #1C6EA4;
+  --mainBlack: #001A1A;
+  --mainDarkwhite: #F2F3F4;
+}

@@ -1,0 +1,37 @@
+
+.btn{
+
+    background-color:var(--mainBlack);
+    color: #fff;
+    padding: .75rem 1.2rem;
+    width: 90px;
+    height: 20px;
+    margin: 0 auto;
+
+
+
+
+
+}
+
+.btn--orange{
+    background-color: var(--mainOrange);
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+}
+
+.btn--large{
+    background-color: var(--mainBlue);
+    color: #fff;
+    text-decoration: none;
+    padding: 1.1rem 1.9rem;
+    display: inline-block;
+
+    @mixin atSmall{
+        font-size: 1.25rem;
+    }
+
+}

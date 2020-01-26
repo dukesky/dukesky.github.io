@@ -1,0 +1,43 @@
+.information {
+    width : 100%;
+    position :relative;
+    background: var(--mainDarkwhite);
+
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+    &__biref {
+
+        @mixin atMedium {
+            width: 80%;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            left: auto;
+            right: auto;    
+        }
+        width: 100%;
+        left: auto;
+        right: auto;
+    }
+
+    &__protrait {
+        float: left;
+        width: auto;
+        margin-right: 30px;
+   
+
+
+    }
+
+    &__protrait_image {
+        width: 141px;
+        height: 186px;
+        margin: 0 0 20 2;
+
+    }
+    
+    &__title {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-left: 10px;
+    }
+}

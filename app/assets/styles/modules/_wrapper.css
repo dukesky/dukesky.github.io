@@ -1,0 +1,28 @@
+/* used to centerlize content */
+
+.wrapper{
+    padding-left: 18px ;
+    padding-right: 18px;
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+.wrapper--medium{
+    max-width: 976px;
+
+}
+
+.wrapper--not-center {
+    margin-left: 4rem;
+    margin-right: 1rem;
+}
+
+.wrapper--b-margin{
+    margin-bottom: 20rem;
+
+    @mixin atSmall{
+        margin-bottom: 3.875rem;
+    }
+}
