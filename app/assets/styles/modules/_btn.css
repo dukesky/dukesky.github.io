@@ -3,13 +3,20 @@
 
     background-color:var(--mainBlack);
     color: #fff;
-    padding: .75rem 1.2rem;
+    padding: .75rem 1.2rem .75rem 1.2rem;
     width: 90px;
     height: 20px;
     margin: 0 auto;
+}
 
-
-
+.btn_bottom{
+    position:relative;
+    top: 15px;
+    bottom: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: auto;
+ 
 
 
 }

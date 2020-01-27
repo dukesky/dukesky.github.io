@@ -4,6 +4,8 @@
     background-color: rgba(255,255,255, .5);
     margin-top: 6rem;
     padding: 0 1.8125rem 1px 1.8125rem;
+    padding-bottom: 20px;
+    text-align: center;
 
     @mixin atMedium{
         margin: 0 1rem 1rem 1rem;    
@@ -23,7 +25,7 @@
     &__title{
         color: var(--mainBlack);
         text-align: center;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 1.5rem;  
         margin-top: -5rem;
     }
