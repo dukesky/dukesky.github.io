@@ -3,11 +3,27 @@
 .wrapper{
     padding-left: 18px ;
     padding-right: 18px;
-    max-width: 1300px;
+    max-width: 2000px;
     margin-left:auto;
     margin-right: auto;
 
 }
+
+.wrapper__no_margin {
+    margin-left: 0;
+    
+
+}
+
+.wrapper_thin{
+    padding-left: 10px ;
+    padding-right: 10px;
+ 
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
 
 .wrapper--medium{
     max-width: 976px;

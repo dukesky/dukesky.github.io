@@ -23,3 +23,13 @@
     padding: 4.5rem 0;
     background-color: var(--mainBlue);
 }
+
+.page-section__ee_head {
+    position: relative;
+    padding: 1.2rem ;
+    @mixin atMedium{
+        padding: 1rem 0;
+    
+    }
+
+}
