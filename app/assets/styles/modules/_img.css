@@ -12,6 +12,12 @@
 
 .img__right {
     margin-left: 5px;
+}
 
-
+.img__center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
