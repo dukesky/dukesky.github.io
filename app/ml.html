@@ -46,27 +46,29 @@
       </div>
 
       <div class='large-hero__text-content'>
-        <div class='large-hero__title_white'> Data and Machine Learning Experience </div>
+        <div class='large-hero__title_white'> Data and Machine Learning</div>
       </div>
     </div>
   </div>
 
-  <div  id='brief intro' class='row row--gutters'>
+  <div  id='brief intro' class='row'>
     <div class='wrapper row__background_white'>
       <div class='row__title'> Machine Learning</div>
       <div class='wrapper_thin row--equal-height-at-medium'>
 
         <div class='row__medium-8'>
-          <div class='generic-content-container'>
-            <h2 class='headline headline--no-t-margin'>How do my journey of Machine Learning start</h2>
-            <p>After earned my bachelor degree, I applied to University of Southern California (USC) to continue my master study. Here, I find that machine learning, compared to Robotics, could improved people's live in a easier way, which is always my goal. </p>
-            <h2 class='headline headline--no-t-margin'>What I'm good at and willing to do</h2>
-            <p>I have a broad interested in Machine learning area, with 2 years of master study at USC (GPA 3.9), I explored projects included building machine learning models and applying deep learning to solve computer vision and natural language processing problems. I'm confident with different feature selection and dimension reduction methods, using SVM, Random Forest, Boosting, clustering to make classification and regression as well as used TensorFlow to implement CNN and RNN model to solve image classification and natural language processing problem. </p>
+          <div class='generic-content-container wrapper'>
+            <h2 class='headline headline--no-t-margin'>Story of my journey on the Machine Learning</h2>
+            <p>After earned my bachelor degree, I applied to University of Southern California (USC) to continue my master study. Here, I learned a lot about the Statistic and Probability and their state of art usage, with a fancy name -- "Machine Learning", I also found that, compared to build robots,  machine learning, with it's broad usage, are accually more easier to improved people's live, without cost a lot of money on choose and design best hardware to assemble a robot, all you need is just a computer, with your strong knowledge and sparking ideas!  </p>
+            <h2 class='headline headline--no-t-margin'>What I'm good at</h2>
+            <p>I explored projects included statistic models to solve numerical classification and regression problems and applying deep learning to solve computer vision and natural language processing problems. I'm confident with working on heavily imbalanced dataset or selecting useful information from large dataset, using SVM, Random Forest, XGBoost, clustering to make classification and regression as well as used TensorFlow to implement CNN and RNN model to solve image classification and natural language processing problem. </p>
+            <h2 class='headline headline--no-t-margin'>What I'm willing to do</h2>
+            <p> I have a broad interested in Machine learning area, I'd like to use data to solve real world problem. Understand a real world problem and convert it into problem can be solve by using data I can get, which I call this process 'data language', than design and build a efficient model finally deploy it to real use and benefit people, these whole processes give me much fine!</p>
           </div>
         </div>
 
         <div class = 'row__medium-4'>
-          <div class="img img__right">
+          <div class="img img__center img__right">
             <img src='assets/figs/me_graduate.jpg'>
           </div>  
         </div>
@@ -74,32 +76,35 @@
     </div>
   </div>
 
-  <div  id='Image Processing' class='row row--gutters'>
+  <div  id='Image Processing' class='row'>
     <div class='row__background_white'>
       <div class='row__title'> Image Processing</div>
 
       <div  id='image_platform' class='wrapper_thin row--equal-height-at-medium'>
         <div class='row__medium-6'>
-          <picture class="img__center">
-            <img src='assets/figs/waiting.png'>
+          <picture class="img__center" >
+            <img src='assets/figs/Wait.png' >
           </picture>     
         </div>
 
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>Online Trainable Image Recognition Platform</h2>
             <p>This is my Intern project at AiTmed, a Telemedical startup head to Anaheim.</p>
+            <p>This project is aimed to deploy an image classification platform on amazon web service that can let customers train it's own model without deep learning knowledge. To work on that, I built a MobileNet model, the model was trained by images customer provided and stored in AWS S3. Model was also stored in Amazon S3 bucket. Customers can continue training the model anytime with new image and test performance by simply input APIs. And they also can classify new images based on their own model</p>
+             <p> What I did include design a simple MobileNet CNN model and design APIs that work on implement this model, extract features from image data customer loaded, load and save model from AWS S3, show model performance, build Docker container for this application to be easier deployment</p>
           </div>
         </div>
       </div>
 
       <div id='image_generation' class='wrapper_thin row--equal-height-at-medium'>
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>High-Resolution Human Image generation</h2>
-            <p> This project aimed to design a high-resolution image generation model that could generate high-resolution human images in fast speed (goal: 30-40fps)</p>
-            <p>&nbsp; &nbsp; Check project Github&nbsp;<a href="https://github.com/bill9800/Human-FSRCNN" target="_blank" rel="noopener">here</a></p>
-            <p>&nbsp; &nbsp; Check video presentation <a href="https://www.youtube.com/watch?v=EQt-ds5p8Ho&amp;t=6s" target="_blank" rel="noopener">here</a></p>
+            <p> This is a Image procesing project, aimed to build a convolution nerual network model to generate high resolution human face image based on lower resolutoin one in fast speed. when generating speed goes really fast, say 50 images per seconds, It can be applied to many areas, such as criminal face recognition in camera video, or live streaming quality improvement. </p> 
+            <p> This project was based on a published paper (FSRCNN), mentioned a CNN model to create high resolution image. I improved the algorithm from this paper and built my own models, witch maintain the same performance and increase the image generation speed by 30% by change the model into mobileNet and shirk nearly 50% of parameters, also the original paper was focus on general image and my model focus specifically in human face</p>
+            <p>&nbsp;<a href="https://github.com/bill9800/Human-FSRCNN" target="_blank" rel="noopener">Check Github here</a></p>
+            <p>&nbsp;<a href="https://www.youtube.com/watch?v=EQt-ds5p8Ho&amp;t=6s" target="_blank" rel="noopener">Check Youtube Video here</a></p>
           </div>
         </div>
 
@@ -109,6 +114,7 @@
           </picture>     
         </div> 
       </div> 
+
       <div  id='facial_recognition' class='wrapper_thin row--equal-height-at-medium'>
         <div class='row__medium-6'>
           <picture class="img__center">
@@ -117,19 +123,20 @@
         </div>
 
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>Human Facial Emotion Recognition</h2>
             <p>In this project, a human emotion recognition system was built by deep learning. (VGG-16 convolution neural network model) Model was trained by 12,993 images of human faces with eight basic emotions. (anger, fear, happiness, disgust, neutral, surprise, contempt, sadness)</p>
-            <p>&nbsp; &nbsp; In this project, I finished the following works:</p>
+            <p>&nbsp; &nbsp; I finished the following works:</p>
             <p>&nbsp; &nbsp;1. Preprocessed and balanced data: upload image data and transfer into a data matrix, flip image upside down and make right/left rotate to expand training set. Separated data in different groups to overcome data imbalance.</p>
             <p>&nbsp; &nbsp;2. Built deep learning model used Keras with Tensorflow framework: Built a VGG-16 ConvNet, trained in AWS E2 and saved parameters</p>
+            <p>&nbsp;<a href="https://github.com/dukesky/Deep-Learning-Projects-Include-basic-CNN-and-RNN/tree/master/STEP4" target="_blank" rel="noopener">Check Github here</a></p>
           </div>
         </div>
       </div>
     </div>
   </div> 
 
-  <div  id='NLP' class='row row--gutters'>
+  <div  id='NLP' class='row'>
     <div class='row__background_blue'>
       <div class='row__title'> Natrual Language Processing</div>
 
@@ -141,10 +148,10 @@
         </div>
 
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>CopyCat App Detection</h2>
-            <p>This project aimed to detect all copycat Apps in Google Play App store.</p>
-            <p>I extracted more than 40,000 Apps information include App description and resealse data and version, download, price，etc from Google play, and vectorize each App's description based on bag of words model, applies TF/IDF and PCA to reduce demension (reduce 90%), and clustering the final phrase vector by cosine similarity.</p>
+            <p>This project aimed to detect all copycat Apps in Google Play App store by the strength of unsupervised learning.</p>
+            <p>I extracted more than 40,000 Apps information include App description and resealse date and version, download, price，etc from Google Play App Store, and vectorize each App's description based on bag of words model, applies TF/IDF and PCA to reduce demension (reduce 90%), and clustering the final phrase vector by cosine similarity.</p>
             <p> Though this method is simple, the final result is good. Take CANDY CRUSH as an example, In the first 80 similar Apps of CANDY CRUSH, there are 58 Apps are copycat or has similar functions.</p>
           </div>
         </div>
@@ -152,19 +159,19 @@
 
       <div id='spoken_language' class='wrapper_thin row--equal-height-at-medium '>
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>Spoken Language Detection</h2>
-            <p>This project aimed to detect language spoken in the audio record.</p>
+            <p>This project aimed to detect which language was spoken in the audio record.</p>
             <p>In this priject, I had 60 audio records (10 min for each) which contains reading in English, Mandarin and Hindi. My job is training a deep learning model to recognize spoken language based on this 60 audio data. I implemented my model by the following step:</p>
             <p>  Segmentate each audio record into small blocks which contain 10 seconds of language spoken audio. This expand my dataset into 3,000 audio data</p>
             <p> Used Python pakage <a href="https://librosa.github.io/librosa/" target="_blank" rel="noopener">LibROSA</a> to extract fetures from audio. This pakage help me extract 64 features for each second using <a herf="https://librosa.github.io/librosa/generated/librosa.feature.mfcc.html" rel="noopener">Mel-frequency cepstral coefficients (MFCCs)</a> </p>
-            <p> Build Recurrent Nerual Network(RNN) model with 2 LSTM layers. There model obtained an accuracy of 73.5%</p>
+            <p> Build Recurrent Nerual Network(RNN) model with 2 LSTM layers to predict which language the test audio belong to. The model obtained an accuracy of 73.5%</p>
           </div>
         </div>
 
         <div class = 'row__medium-6'>  
           <picture>
-            <img src='assets/images/our-start-landscape.jpg'>
+            <img src='assets/figs/languages.jpg'>
           </picture>     
         </div>
         
@@ -172,7 +179,7 @@
     </div>
   </div> 
 
-  <div  id='Pricing and Recommendation' class='row row--gutters'>
+  <div  id='Traditional ML' class='row'>
     <div class='row__background_gray'>
       <div class='row__title'> Traditional Supervised Learning</div>
       <div id='movie_prediction' class='wrapper_thin row--equal-height-at-medium '>
@@ -183,10 +190,10 @@
         </div>
 
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>Movie Revenue Prediction and Related Recommend System</h2>
-            <p>&nbsp; &nbsp; In this project, a regression system was built to predict movie revenue from TMBD 5,000 movies dataset. Several related movies in the dataset were listed for a given new movie.</p>
-            <p>&nbsp; &nbsp; In this project, I finished the following works:</p>
+            <p>&nbsp; &nbsp; This project aimed to build a regression system to predict movie revenue from TMBD 5,000 movies dataset. So it could be used to predict if a new released movie with make profit or not.</p>
+            <p>&nbsp; &nbsp; To finish this project, a few works were done by myself:</p>
             <p>&nbsp; &nbsp; 1. Applied PCA to extract important feature, applied semi-supervised 1NN to fill missing data.</p>
             <p>&nbsp; &nbsp; 2.Trained supervised machine learning models by random forest, output the DNN model as the best prediction model with an average error of less than 15%.</p>
             <p>&nbsp; &nbsp; 3. Applied KNN to find the first n nearest movie as the recommended relatively movie.</p>
@@ -196,15 +203,18 @@
 
       <div id='news_popularity' class='wrapper_thin row--equal-height-at-medium '>
         <div class='row__medium-6'>
-          <div class='generic-content-container'>
+          <div class='generic-content-container wrapper'>
             <h2 class='headline headline--no-t-margin'>Online News Popularity Prediction</h2>
-            <p>This is a course final project, me and my partner in charged of a&nbsp; News Popularity prediction model</p>
+            <p>This is a course final project, me and my partner in charged of a News Popularity prediction model</p>
+            <p>The project aimed to predict how many people will likely to read a specific type of news based on news' field, published time, number of images, position in the newspaper or website, etc.    </p>
+            <p>&nbsp;<a href="https://github.com/dukesky/Prediction-Machine-Learning-in-MATLAB#2.Online-News-Popularity-Prediction" target="_blank" rel="noopener">Check Github here</a></p>
+            
           </div>
         </div>
 
         <div class = 'row__medium-6'>
           <picture class='img__center'>
-            <img src='assets/figs/ml_news.jpg'>
+            <img src='assets/figs/news.jpg'>
           </picture>     
         </div>
         
@@ -212,23 +222,23 @@
     </div>
   </div> 
 
-      <p><strong><span style="color: #000000;">Data Preparation procedure</span></strong>&nbsp;&nbsp;</p>
-      <ul>
-        <li>data visualization (Matplotlib)</li>
-        <li>data pipelines (Data clean, extract, generation)</li>
-      </ul>
-      <p><strong>Data Management</strong></p>
-        <li>Use MySQL or Spark to manage data</li>
-      <p><strong>Apply Traditional Machine Learning models</strong></p>
-      <ul>
-        <li>Supervised Learning (SVM, Random Forest, Boosting, Naive Bayes)</li>
-        <li>Unsupervised Learning (Clustering)</li>
-      </ul>
-      <p><strong>Apply Deep Learning Models</strong></p>
-      <ul>
-        <li>Natural Language Processing (entity recognition)</li>
-        <li>Image Processing (Image classification, Image generation)</li>
-      </ul>
+
+  <div  id='Other' class='row'>
+    <div class='row__background_blue'>
+      <div class='row__title'> Other Data Skills</div>
+
+      <div id='visual' class='large-hero__subtitle'>
+          Data visualization
+      </div>
+      <div id='visual' class='wrapper_thin row--equal-height-at-medium '>
+        Data Pipeline(Data clean, extract, generation)
+    </div>
+    <div id='visual' class='wrapper_thin row--equal-height-at-medium '>
+      Data Management
+      Use MySQL or Spark to manage data
+    </div>
+    </div>
+  </div>
 
 
 
