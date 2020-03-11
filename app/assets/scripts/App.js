@@ -1,4 +1,8 @@
-import '../styles/styles.css'
+import '../styles/styles.css';
+import MobileMenu from './MobileMenu';
 
+let mobileMenu = new MobileMenu();
 
-console.log('this is a test');
+if (module.hot) {
+    module.hot.accept()
+}
