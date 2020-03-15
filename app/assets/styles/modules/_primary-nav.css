@@ -1,7 +1,9 @@
 .primary-nav {
-    top: 2px;
-    padding: 5px;
-    font-size: 1rem;
+    top: 5px;
+    
+    padding: 15px;
+    font-size: 5rem;
+    background-color:var(--mainDarkwhite);
 
     &__pull-right {
         float: right;
@@ -20,8 +22,9 @@
     li {
 
       list-style: none;
-      display: inline-block;
-      padding-right: 7px;
+      display: block;
+      padding-top: 8px;
+      padding-right: 4px;
 
       @mixin atMedium{
         float: right;  
