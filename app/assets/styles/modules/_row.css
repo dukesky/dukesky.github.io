@@ -43,7 +43,7 @@
  
 
     @mixin atMedium{
-        margin:  5% 0%;
+        margin:  auto;
         float:left;
         width: 33%;
     }

@@ -19,6 +19,7 @@
 @import 'modules/_testimonial.css';
 @import 'modules/_btn.css';
 @import "modules/jemdoc.css";
+@import "modules/_reveal-item.css";
 
 html {
   scroll-behavior: smooth;
